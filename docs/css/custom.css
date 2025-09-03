@@ -1,0 +1,12 @@
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 60px; /*default: 24x24 in 40x40*/ 
+    width: 60px;
+}
+.md-header__button.md-logo {
+    margin: 0; /*default: 4*/ 
+    padding: 12px 8px 0; /*default: 8*/ 
+}
+
+.md-typeset .admonition, .md-typeset details {
+    font-size: .8rem; /*14px; default: 0.64rem*/
+}

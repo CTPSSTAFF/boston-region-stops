@@ -1,0 +1,39 @@
+site_name: Boston Region STOPS Model Guide
+
+extra:
+  generator: false
+
+extra_css:
+  - 'css/custom.css'
+  - 'css/extra_styles.css'
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.footer
+    - toc.follow
+    - toc.integrate 
+  logo: images/icons/MPO_Logo_circle.svg
+  favicon: images/icons/MPO_Logo_circle_48.ico
+
+# Corrected navigation structure for the 6-file setup
+nav:
+  - Overview: pages/overview/index.md
+  - Setup: pages/setup/index.md
+  - Inputs: pages/inputs/index.md
+  - Outputs: pages/outputs/index.md
+  - Workflow: pages/workflow/index.md
+  - More: pages/more/index.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+copyright: Copyright &copy; 2025 <a href="https://www.ctps.org/" target="_blank">CTPS</a> <a href="mailto:model.support@ctps.org">model.support@ctps.org</a>
