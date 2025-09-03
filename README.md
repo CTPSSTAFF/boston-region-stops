@@ -1,6 +1,6 @@
-# TDM23 User Guide Documentation
+# Boston Region STOPS User Guide Documentation
 
-Welcome to the repository for the TDM23 User Guide. This documentation is built using MkDocs with the Material theme.
+Welcome to the repository for the Boston Region STOPS User Guide. This documentation is built using MkDocs with the Material theme.
 
 ## Running the Documentation Locally
 

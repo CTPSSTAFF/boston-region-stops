@@ -1,7 +1,7 @@
 
-# Maintaining the TDM23 MkDocs Project
+# Maintaining the Boston Region STOPS Project
 
-This document outlines the process for maintaining and updating the TDM23 MkDocs project. It covers the setup of the development environment, the build process, and deployment.
+This document outlines the process for maintaining and updating the Boston Region STOPS MkDocs project. It covers the setup of the development environment, the build process, and deployment.
 
 ## Project Structure
 
@@ -10,11 +10,9 @@ The project has the following key directories and files:
 - `.venv/`: Localized python packages for deploying users guide if using virtual environment *(ignored by git)*.
 - `docs/`: Serves as the source directory for the documentation, containing all Markdown and related files.
   - `css/`: Holds customized styles used for tables and pages.
-  - `images/`: Stores images used in the documentation.
-  - `pages/`: Contains individual Markdown files for different sections of the documentation.
-    - `_assets/`: Houses the assets used in pages. _assets/ folder needs to be housed here to be accessed publicly. Folder includes additional HTML assets used in the documentation.
-      - `gisdk_assets`: Stores HTML assets specifically for GISDK Macros in TDM23.
-  - `index.md`: Represents the starting page of the documentation.
+  - `images/`: Stores site-images used in the documentation.
+  - `pages/`: Contains individual Markdown files and images for different sections of the documentation.
+- `*/index.md`: Represents the index pages of the documentation.
 - `site/`: Automatically populated from docs/ files, ready for deployment to GitHub Pages. *Note: This is ignored by git as site deployment is handled in a versioned environment branch `gh-pages` through **mike**.*
 
 ## Development Environment Setup
